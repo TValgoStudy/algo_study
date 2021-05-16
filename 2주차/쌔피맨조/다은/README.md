@@ -32,6 +32,7 @@
        def __init__(self):
            self.word = False
            self.children = collections.defaultdict(TrieNode)
+           
    class Trie:
        def __init__(self):
            self.root = TrieNode()
@@ -106,6 +107,7 @@
      - [Y-fast trie](https://en.wikipedia.org/wiki/Y-fast_trie)
      - Bitmap Trie
      - bitwise trie
+     - [DAFSA](https://en.wikipedia.org/wiki/Deterministic_acyclic_finite_state_automaton) : 트라이에서 같은 알파벳을 묶어서 압축시킴
 
 
 
@@ -114,6 +116,7 @@
 ## 2주차 모의고사 - BOJ
 
 1. [BOJ 17070 파이프옮기기1](https://www.acmicpc.net/problem/17070)
+
 2. 1시간 30분 푼 결과 : pass
    - 읽기/구상 15m & 코드 작성 35m & 수정 20m : total 70m
      - 문제 이해를 빨리하도록 노력하기
@@ -123,8 +126,16 @@
      - 이동시킬 수 없는 경우 (오른쪽 맨 아래 마지막 위치가 막혀있을 수 있음) 을 고려하지 못함
      - 이동시킬 수 없는 위치를 -1로 파싱했는데, 마지막 위치가 이동할 수 없는 위치면 sum(-1) 을 하게 되어 typeError 가 발생
    - 아쉬운 점 : 급박하게 작성하느라 코드가 매우 더러움
+   
 3. rank 코드
    - 풀이 전략 : DP
+   
+   ```python
+   if maps[y][x] == maps[y][x-1] == maps[y-1][x] == 0:
+       pass
+   # 이런 식으로 작성할 수 있다는 것도 알아두기!
+   ```
+   
 4. 기타 코드
    - 백트래킹(BFS, DFS)으로 풀 수 있음
 
