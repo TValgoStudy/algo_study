@@ -23,6 +23,8 @@ git switch feature/file_or_function
 
 3. 수정사항을 add commit 후에 git repository에 push한다.
 
+   (pr 하면서 상세사항을 작성하거나 bash에서 작성 명령어 추가바람)
+
 ```bash
 git add
 git commit -m "create, first, fixed, modified, 더 기재 바람"
