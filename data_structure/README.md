@@ -6,6 +6,14 @@
 
 ## 방법
 
+주의 사항:  branch 고동진에서는 data_sturuce파일만 관리한다.
+
+고동진 branch를 master에 pr 하지 않는다.
+
+ex) 문제 푼 것들은 주차에 저장하고 해당 경로만  add 한뒤에 commit 후 push하고
+
+​	자료구조나 알고리즘은 고동진에서 branch를 생성 후 고동진 branch에만 pr한다.
+
 1. 최신 버전을 다운 받는다.
 
 ```bash
