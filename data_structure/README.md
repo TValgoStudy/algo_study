@@ -50,7 +50,7 @@ git branch -d feature/file_or_function
 
 ### Case
 
-1.  부모 branch를 pull 받지 않고 local에서 자식 branch를 삭제하려고 하면 경고를 보내준다.
+1. 부모 branch를 pull 받지 않고 local에서 자식 branch를 삭제하려고 하면 경고를 보내준다.
 
    ```bash
    git branch -D feature/file_or_function
@@ -58,6 +58,30 @@ git branch -d feature/file_or_function
 
    `-d` 말고 `-D` 옵션을 주면 강제 삭제가 가능하다.
 
-2.  
+   
 
-3. 
+2. ```bash
+   error: cannot stat 'file directory': Permission denied
+   ```
+
+![image-20210519143938942](README.assets/image-20210519143938942.png)
+
+검색 결과 일반적인 경우는 permission denied(Publickey)인 경우로 
+
+**등록되지 않은 기기**에서 clone이나 push가 일어나면 인증문제가 발생하게 된답니다.
+
+결과적으로 **유저의 ssh가 등록되지 않아 접근권한이 없어서 나오는 문제**에요.
+
+출처: https://zeddios.tistory.com/120 [ZeddiOS]
+
+이 경우와는 다르다.
+
+문제점 발생: bash에서 키고 새 branch에서 mkdir로 해당 directory로 이동하고 새 bash창을 키고 master branch로 이동하면 문제가 발생한다.
+
+생각: 두 개의 bash는 동기화 되는데 master에는 없는 경로에 bash가 열려있어서 오류가 생기는 것으로 추측된다.
+
+해결법:
+
+1. 새로 만든 경로를 가리키고 있는 bash에서 cd ../ 를 통해서 나와준다.
+2.  새로 만든 경로를 가리키고 있는 bash창을 종료한다.
+
