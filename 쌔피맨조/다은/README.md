@@ -48,13 +48,13 @@
 
 # 알고리즘 이론 정리
 
-|    알고리즘     | 링크 | 비고 |
-| :-------------: | :--: | :--: |
-|    패턴 매칭    |      |      |
-|     트라이      |      |      |
-| 세그, 펜윅 트리 |      |      |
-|   연결리스트    |      |      |
-|    스택, 큐     |      |      |
-|                 |      |      |
-|                 |      |      |
+|    알고리즘     |                             링크                             |                             비고                             |
+| :-------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|    패턴 매칭    | [패턴매칭.md](https://github.com/TValgoStudy/algo_study/blob/master/쌔피맨조/다은/이론 정리/패턴매칭.md) | [kmp.py](https://github.com/TValgoStudy/algo_study/blob/master/쌔피맨조/다은/이론 정리/kmp.py) , [Boyer-Moore.py](https://github.com/TValgoStudy/algo_study/blob/master/쌔피맨조/다은/이론 정리/Boyer-Moore.py) , [swea1213.py](https://github.com/TValgoStudy/algo_study/blob/master/쌔피맨조/다은/swea1213.py) |
+|     트라이      | [트라이.md](https://github.com/TValgoStudy/algo_study/blob/master/쌔피맨조/다은/이론 정리/트라이.md) |                                                              |
+| 세그, 펜윅 트리 | [세그_펜윅.md](https://github.com/TValgoStudy/algo_study/blob/master/쌔피맨조/다은/이론 정리/세그_펜윅.md) | [Fenwick Tree.py](https://github.com/TValgoStudy/algo_study/blob/master/쌔피맨조/다은/이론 정리/Fenwick Tree.py) , [Fenwick Tree_BOJ2042.py](https://github.com/TValgoStudy/algo_study/blob/master/쌔피맨조/다은/이론 정리/Fenwick Tree_BOJ2042.py) |
+|   연결리스트    | [연결리스트.md](https://github.com/TValgoStudy/algo_study/blob/master/쌔피맨조/다은/이론 정리/연결리스트.md) |                                                              |
+|    스택, 큐     | [스택_큐.md](https://github.com/TValgoStudy/algo_study/blob/master/쌔피맨조/다은/이론 정리/스택_큐.md) |                                                              |
+|                 |                                                              |                                                              |
+|                 |                                                              |                                                              |
 
