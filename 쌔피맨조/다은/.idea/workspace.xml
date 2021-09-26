@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b4a6b63-7810-4b49-b55d-4564582d9339" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3b4a6b63-7810-4b49-b55d-4564582d9339" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +19,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BOJ16236/BOJ16236.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state>
+              <caret selection-end-line="3" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BOJ16235/BOJ16235.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BOJ16235/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -79,14 +98,15 @@
         <option value="$PROJECT_DIR$/BOJ15685/BOJ15685_ranker.py" />
         <option value="$PROJECT_DIR$/BOJ16236/input.txt" />
         <option value="$PROJECT_DIR$/BOJ16236/BOJ16236.py" />
+        <option value="$PROJECT_DIR$/BOJ16235/BOJ16235.py" />
+        <option value="$PROJECT_DIR$/BOJ16235/input.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="410" />
-    <option name="y" value="75" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="74" />
     <option name="width" value="1386" />
-    <option name="height" value="930" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -117,6 +137,11 @@
             <path>
               <item name="다은" type="b2602c69:ProjectViewProjectNode" />
               <item name="다은" type="462c0819:PsiDirectoryNode" />
+              <item name="BOJ16235" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="다은" type="b2602c69:ProjectViewProjectNode" />
+              <item name="다은" type="462c0819:PsiDirectoryNode" />
               <item name="BOJ16236" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -142,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BOJ16236">
+  <component name="RunManager" selected="Python.BOJ16235">
     <configuration name="BOJ15684" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="다은" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,7 +231,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BOJ16234" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="BOJ16235" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="다은" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,11 +239,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ16234" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ16235" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ16234/BOJ16234.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ16235/BOJ16235.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,19 +274,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.BOJ16234" />
       <item itemvalue="Python.BOJ15685" />
       <item itemvalue="Python.BOJ15684" />
       <item itemvalue="Python.BOJ16236" />
       <item itemvalue="Python.BOJ15685_ranker" />
+      <item itemvalue="Python.BOJ16235" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BOJ16235" />
         <item itemvalue="Python.BOJ16236" />
         <item itemvalue="Python.BOJ15685_ranker" />
         <item itemvalue="Python.BOJ15684" />
         <item itemvalue="Python.BOJ15685" />
-        <item itemvalue="Python.BOJ16234" />
       </list>
     </recent_temporary>
   </component>
@@ -279,9 +304,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1052" extended-state="6" />
+    <frame x="74" y="0" width="1386" height="1044" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24703264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
@@ -290,14 +316,14 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.16030534" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.25962597" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Debug" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Debug" order="3" weight="0.4668175" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -587,11 +613,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BOJ16236/BOJ16236.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state>
+          <caret selection-end-line="3" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOJ16235/BOJ16235.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOJ16235/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
