@@ -15,11 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BOJ17142/BOJ17142.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+            <state relative-caret-position="441">
+              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BOJ17837/BOJ17837.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BOJ17837/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -46,6 +64,7 @@
     <findStrings>
       <find>IN[br][bc]</find>
       <find>r</find>
+      <find>nd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,13 +118,17 @@
         <option value="$PROJECT_DIR$/BOJ17143/BOJ17143.py" />
         <option value="$PROJECT_DIR$/BOJ17143/BOJ17143_ranker.py" />
         <option value="$PROJECT_DIR$/BOJ17142/input.txt" />
+        <option value="$PROJECT_DIR$/BOJ17837/input.txt" />
+        <option value="$PROJECT_DIR$/BOJ17837/BOJ17837.py" />
+        <option value="$PROJECT_DIR$/BOJ17837/input2.txt" />
+        <option value="$PROJECT_DIR$/BOJ17837/tmp.py" />
         <option value="$PROJECT_DIR$/BOJ17142/BOJ17142.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="521" />
-    <option name="width" value="1315" />
+    <option name="x" value="289" />
+    <option name="width" value="1375" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -127,6 +150,11 @@
               <item name="다은" type="b2602c69:ProjectViewProjectNode" />
               <item name="다은" type="462c0819:PsiDirectoryNode" />
               <item name="BOJ17142" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="다은" type="b2602c69:ProjectViewProjectNode" />
+              <item name="다은" type="462c0819:PsiDirectoryNode" />
+              <item name="BOJ17837" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,28 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BOJ17142">
-    <configuration name="BOJ17140" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="다은" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ17140" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ17140/BOJ17140.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.BOJ17837">
     <configuration name="BOJ17142" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="다은" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,7 +247,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BOJ17144" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="BOJ17837" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="다은" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,11 +255,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ17144" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ17837" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ17144/BOJ17144.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ17837/BOJ17837.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="다은" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ17837" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ17837/tmp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,19 +290,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.BOJ17144" />
-      <item itemvalue="Python.BOJ17140" />
       <item itemvalue="Python.BOJ17143" />
       <item itemvalue="Python.BOJ17143_ranker" />
       <item itemvalue="Python.BOJ17142" />
+      <item itemvalue="Python.BOJ17837" />
+      <item itemvalue="Python.tmp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BOJ17837" />
+        <item itemvalue="Python.tmp" />
         <item itemvalue="Python.BOJ17142" />
         <item itemvalue="Python.BOJ17143" />
         <item itemvalue="Python.BOJ17143_ranker" />
-        <item itemvalue="Python.BOJ17140" />
-        <item itemvalue="Python.BOJ17144" />
       </list>
     </recent_temporary>
   </component>
@@ -292,10 +320,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="521" y="0" width="1315" height="1047" extended-state="0" />
+    <frame x="747" y="0" width="1375" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945474" visible="true" weight="0.15856573" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945474" visible="true" weight="0.12864622" />
       <window_info id="Structure" order="1" sideWeight="0.50054526" side_tool="true" weight="0.12961012" />
       <window_info id="Favorites" order="2" sideWeight="0.50054526" side_tool="true" weight="0.12961012" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
@@ -304,14 +332,14 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.16666667" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.14364035" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Debug" order="3" visible="true" weight="0.14581673" />
+      <window_info anchor="right" id="Debug" order="3" weight="0.24631861" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -329,13 +357,17 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="jobs[current][0]" language="Python" />
-        <watch expression="IN" language="Python" />
+        <watch expression="chess_map" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>chess_map</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>IN</expression-string>
         <language-id>Python</language-id>
@@ -374,11 +406,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/프로그래머스/카카오3번.py" />
-    <entry file="file://$PROJECT_DIR$/프로그래머스/카카오4번.py" />
-    <entry file="file://$PROJECT_DIR$/프로그래머스/카카오5번.py" />
-    <entry file="file://$PROJECT_DIR$/프로그래머스/카카오2번.py" />
-    <entry file="file://$PROJECT_DIR$/프로그래머스/카카오6번.py" />
     <entry file="file://$PROJECT_DIR$/프로그래머스/문제2.py" />
     <entry file="file://$PROJECT_DIR$/프로그래머스/문제4.py" />
     <entry file="file://$PROJECT_DIR$/프로그래머스/문제3.py" />
@@ -640,10 +667,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOJ17837/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOJ17837/input2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOJ17837/tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BOJ17142/BOJ17142.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="441">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOJ17837/BOJ17837.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
         </state>
       </provider>
     </entry>
