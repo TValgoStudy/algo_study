@@ -2,9 +2,6 @@ import sys
 sys.stdin = open("input.txt", "r")
 from pandas import DataFrame
 
-dr = [-1, 1, 0, 0]
-dc = [0, 0, -1, 1]
-
 
 def divide(d1, d2, x, y):
     section = [[0] * (N + 2) for _ in range(N + 2)]
@@ -49,12 +46,16 @@ def divide(d1, d2, x, y):
 
     # 경계 사이 구역 5 채우기
     for r in range(1, N+1):
+        # 해당 행에 5가 없으면 패스
         if 5 not in section[r]:
             continue
+        # 해당 행에 5가 있으면 시작, 끝 찾기
         start = section[r].index(5)
         end = N - section[r][::-1].index(5) + 1
+        # 시작과 끝이 같으면 패스
         if start == end:
             continue
+        # 시작과 끝이 다르면 경계 사이인 중간 채우기
         for c in range(start, end+1):
             section[r][c] = 5
 
